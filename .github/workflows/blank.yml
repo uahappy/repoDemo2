@@ -37,3 +37,6 @@ jobs:
 
       - name: Run a java command
         run: java --version
+
+      - name: Run linux cmd
+        run: ping google.com
